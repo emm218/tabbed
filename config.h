@@ -3,11 +3,11 @@
 /* appearance */
 static const char font[]        = "monospace:size=12";
 static const char* normbgcolor  = "#11111b";
-static const char* normfgcolor  = "#cdd6f4";
+static const char* normfgcolor  = "#f8f8f2";
 static const char* selbgcolor   = "#1e1e2e";
-static const char* selfgcolor   = "#cdd6f4";
+static const char* selfgcolor   = "#f8f8f2";
 static const char* urgbgcolor   = "#11111b";
-static const char* urgfgcolor   = "#f38ba8";
+static const char* urgfgcolor   = "#f8f8f2";
 static const char before[]      = "<";
 static const char after[]       = ">";
 static const char titletrim[]   = "...";
@@ -43,7 +43,7 @@ static const Key keys[] = {
 	{ MODKEY,     					XK_h,      rotate,      { .i = -1 } },
 	{ MODKEY,     					XK_j,      movetab,     { .i = -1 } },
 	{ MODKEY,								XK_k,      movetab,     { .i = +1 } },
-	{ MODKEY,               XK_Tab,    rotate,      { .i = 0 } },
+	//{ MODKEY,               XK_Tab,    rotate,      { .i = 0 } },
 
 	{ MODKEY,               XK_grave,  spawn,       SETPROP("_TABBED_SELECT_TAB") },
 	{ MODKEY,               XK_1,      move,        { .i = 0 } },
